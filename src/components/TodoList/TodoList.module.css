@@ -1,0 +1,14 @@
+.TodoList{
+    z-index: 999;
+    margin: 0 16px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Dark{
+    background-color: var(--veryDarkBlue);
+    color: var(--lightGrayishBlue);
+}
+.Dark button{
+    color: var(--lightGrayishBlue);
+}

@@ -1,0 +1,44 @@
+.Todos{
+    min-height:40vh;
+    max-height:40vh;
+    overflow-y: auto;
+    max-width: 100%;
+
+}
+.TodoItem{
+    /* background-color: red; */
+    position: relative;
+    border-bottom: 1px solid gray;
+    padding: 16px 45px;
+}
+.Content{
+    word-break: break-all
+}
+
+.Todo__Icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+}
+.Todo__Icons img{
+    padding: 4px;
+    width: 18px;
+}
+.Todo__Check{
+    padding-top: 2px;
+    left:16px;
+    border: 1px solid var(--veryLightGrayishBlue);
+    border-radius: 50%;
+}
+.Todo__Cross{
+    right:16px;
+}
+.BlankData{
+    padding: 8px 16px;
+}
+
+.Todo__Checked {
+    background: linear-gradient(90deg, #57ddff, #57b9fd, #5795fc, #5773fa, #5e57f8, #8058f7, #a058f5, #c058f3);
+}

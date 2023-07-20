@@ -1,0 +1,17 @@
+.TodosNavbar{
+    padding: 8px 16px;
+    display: flex;
+    border-top: 1px solid gray;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+.Action button{
+    border: none;
+    background: none;
+    margin: 0 8px;
+    font-size: 0.7em;
+}
+.Active{
+    color: var(--brightBlue) !important;
+    font-weight: 800;
+}

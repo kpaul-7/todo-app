@@ -1,0 +1,24 @@
+.Dark{
+    background-color: var(--veryDarkBlue);
+
+}
+.ResponsiveWrapper{
+    position: relative;
+    z-index: 999;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+.Background__Image{
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .ResponsiveWrapper{
+        max-width: 400px;
+        margin: auto;
+    }
+}
